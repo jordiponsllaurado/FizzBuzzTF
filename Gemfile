@@ -1,0 +1,12 @@
+source 'https://rubygems.org'
+
+ruby '2.3.1'
+gem 'headless'
+gem 'selenium-webdriver', '2.53.1'
+gem 'watir-webdriver'
+gem 'page-object'
+gem 'cucumber'
+gem 'rspec'
+gem 'rspec-expectations'
+gem 'rspec-wait'
+gem 'my_private_gem', git: 'git@github.com:jordiponsllaurado/gem_workshop.git'
