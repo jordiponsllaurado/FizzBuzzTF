@@ -7,12 +7,11 @@ Feature: Fizz Buzz Game
 
   Scenario Outline: Get answers based on played numbers
 
-    Given I am playing FizzBuzz game
     When the number <number> is played
     Then I should receive <response>
 
     Examples:
-    | number | response  |
-    | 1      | 1         |
-    | 3      | fizz      |
-    | 15     | fizz buzz |
+    | number | response |
+    | 1      | 1        |
+    | 3      | Fizz     |
+    | 15     | FizzBuzz |
